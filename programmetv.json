@@ -9,13 +9,17 @@
         "user_id": "sfmfu9y7epxfj"
     },
     "cron": [{
-        "name": "DefaultCron",
+        "name": "Download Programme TV",
         "debug": 1,
+<<<<<<< HEAD
         "rule": "FREQ=DAILY;INTERVAL=1"
+=======
+        "rule": "FREQ=SECONDLY;INTERVAL=30;",
+>>>>>>> d4276b165d62e6392e6169d5abbd229540c3b617
         "module": "programmetv",
         "class": "ProgrammeTV",
         "method": "downloadProgrammeTV",
         "args": "",
-        "enabled": 1,
+        "enabled": 1
     }]
 }
