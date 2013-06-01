@@ -15,10 +15,10 @@
             "interval": 5,
             "freq": SECONDLY
             },
-        "module": 'programmetv',
-        "class": 'ProgrammeTV',
-        "method": 'downloadProgrammeTV',
-        "args": '',
+        "module": "programmetv",
+        "class": "ProgrammeTV",
+        "method": "downloadProgrammeTV",
+        "args": "",
         "enabled": 1,
     }]
 }
