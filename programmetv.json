@@ -7,5 +7,18 @@
     "lang": ["fr"],
     "configuration": {
         "user_id": "sfmfu9y7epxfj"
-    }
+    },
+    "cron": [{
+        "name": "DefaultCron",
+        "debug": 1,
+        "rule": {
+            "interval": 5,
+            "freq": SECONDLY
+            },
+        "module": 'programmetv',
+        "class": 'ProgrammeTV',
+        "method": 'downloadProgrammeTV',
+        "args": '',
+        "enabled": 1,
+    }]
 }
