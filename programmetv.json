@@ -11,7 +11,7 @@
     "cron": [{
         "name": "Download Programme TV",
         "debug": 1,
-        "rule": "FREQ=DAILY;INTERVAL=1"
+        "rule": "FREQ=DAILY;INTERVAL=1",
         "module": "programmetv",
         "class": "ProgrammeTV",
         "method": "downloadProgrammeTV",
