@@ -16,6 +16,6 @@
         "class": "ProgrammeTV",
         "method": "downloadProgrammeTV",
         "args": "",
-        "enabled": 1,
+        "enabled": 1
     }]
 }
