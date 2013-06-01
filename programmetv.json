@@ -11,10 +11,7 @@
     "cron": [{
         "name": "DefaultCron",
         "debug": 1,
-        "rule": {
-            "interval": 5,
-            "freq": SECONDLY
-            },
+        "rule": "FREQ=SECONDLY;INTERVAL=30;",
         "module": "programmetv",
         "class": "ProgrammeTV",
         "method": "downloadProgrammeTV",
