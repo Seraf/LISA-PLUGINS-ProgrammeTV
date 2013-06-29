@@ -1,9 +1,11 @@
 {
     "name": "ProgrammeTV",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "Julien Syx",
     "enabled": 1,
-    "description_fr": "Ce plugin permet de récuperer le programme TV",
+    "description": [
+        {"description_fr": "Ce plugin permet de récuperer le programme TV"}
+    ],
     "lang": ["fr"],
     "configuration": {
         "user_id": "sfmfu9y7epxfj"
