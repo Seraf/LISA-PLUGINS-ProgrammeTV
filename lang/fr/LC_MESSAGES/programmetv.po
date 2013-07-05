@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: Julien Syx\n"
+"POT-Creation-Date: 2013-07-05 07:49+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Julien SYX <julien.syx@lisa-project.net>\n"
+"Language-Team: FR <julien.syx@lisa-project.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../modules/programmetv.py
+msgid "On "
+msgstr "Sur "
+
+msgid " at "
+msgstr " à "
+
+msgid " hour "
+msgstr " heures "
+
+msgid " there is : "
+msgstr " il y a : "
+
+msgid "Downloading the tv program"
+msgstr "Téléchargement du programme TV"
