@@ -1,6 +1,6 @@
 {
     "name": "ProgrammeTV",
-    "version": "1.0.13",
+    "version": "1.2.0",
     "author": "Julien Syx",
     "enabled": 1,
     "description": [
@@ -8,6 +8,12 @@
     ],
     "lang": ["fr"],
     "configuration": {
+        "intents": {
+            "programmetv_getprogrammetv": {
+                "method": "getProgrammeTV",
+                "corpus": {}
+            }
+        },
         "user_id": "sfmfu9y7epxfj"
     },
     "cron": [{

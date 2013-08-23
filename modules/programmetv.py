@@ -18,7 +18,7 @@ class ProgrammeTV:
                             self.configuration_lisa['database']['port'])
         self.configuration = mongo.lisa.plugins.find_one({"name": "ProgrammeTV"})
 
-    def getProgrammeTV(self):
+    def getProgrammeTV(self, jsonInput):
         self.downloadProgrammeTV()
         programmetv = ET.parse('tmp/'+str(date.today())+'_programmetv.xml').getroot()
 
@@ -33,7 +33,10 @@ class ProgrammeTV:
                     programmetv_str = programmetv_str + _('On ') +channelDict[child.attrib['channel']] + _(' at ')     \
                                       + child.attrib['start'][8:10] + _(' hour ') + child.attrib['start'][10:12]       \
                                       + _(' there is : ') + child.find('title').text + '. '
-        return json.dumps({"plugin": "programmetv","method": "getProgrammeTV", "body": programmetv_str})
+        return {"plugin": "programmetv",
+                 "method": "getProgrammeTV",
+                 "body": programmetv_str
+        }
 
     def downloadProgrammeTV(self):
         url = "http://www.kazer.org/tvguide.xml?u=" + self.configuration['configuration']['user_id']
