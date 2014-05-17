@@ -16,6 +16,7 @@ class ProgrammeTV(IPlugin):
             inspect.getfile(inspect.currentframe()))[0],os.path.normpath("../lang/"))))
         self._ = translation = gettext.translation(domain='programmetv',
                                                    localedir=self.path,
+                                                   fallback=True,
                                                    languages=[self.configuration_lisa['lang']]).ugettext
     def getProgrammeTV(self, jsonInput):
         self.downloadProgrammeTV()
