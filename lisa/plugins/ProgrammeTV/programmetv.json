@@ -1,6 +1,6 @@
 {
     "name": "ProgrammeTV",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "Julien Syx",
     "enabled": 1,
     "pypi-url": "https://pypi.python.org/pypi/lisa-plugin-ProgrammeTV",
